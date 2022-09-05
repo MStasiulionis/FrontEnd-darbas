@@ -1,20 +1,60 @@
-
-
+body {
+    background-image: url("pictures/back.jpg")
+}
 header {
-    height: 100px;
-    background-color: #F1E9DE;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 0 10px;
+    justify-content: space-between;
+    padding: 0 1rem;
   }
 #logo img {
-    height: 90px;
+    height: 7rem;
   }
 nav a {
     font-size: 1.1em;
     text-decoration: none;
     color: #3b4205;
-    padding: 0 10px;
-    margin-right: 20px;
+    padding: 0 1rem;
+    margin-right: 2rem;
+  }
+.box-one {
+    border-radius: 25px;
+    background-color: #F1E9DE;
+    padding: 0.4rem;
+    margin: 0.1rem;
+    border: 2px solid #C98369;
+}
+.image-box {
+    border-radius: 25px;
+    background-color: #F1E9DE;
+    padding: 0.4rem;
+    margin: 0.1rem;
+    border: 2px solid #C98369;
+    height: 15rem;
+    width: 20rem;
+    text-align: center;
+    display: inline-block;
+}
+.image-box img {
+    max-height: 10rem;
+    margin: auto;
+    display: block;
+}
+.top-sell {
+    border-radius: 25px;
+    background-color: #F1E9DE;
+    padding: 0.4rem;
+    margin: 0.1rem;
+    border: 2px solid #C98369;
+    width: 20rem;
+    text-align: center;
+}
+.pack-box {
+    display: flex;
+}
+.pack-box div:first-child {
+    flex: 3;
+  }
+.pack-box div:last-child {
+    flex: 1;
   }
