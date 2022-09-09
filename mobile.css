@@ -1,0 +1,30 @@
+.top-sell {
+    visibility: hidden;
+}
+#static {
+    visibility: hidden;
+}
+#mobile {
+    visibility: visible;
+}
+.dropdown-content {
+  display: none;
+  border-radius: 25px;
+  border: 2px solid #C98369;
+  position: absolute;
+  background-color: #F1E9DE;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.dropdown-content a {
+    text-decoration: none;
+    color: #3b4205;
+    font-size: 1.1em;
+}
+.dropdown-content a:hover {
+    font-weight: bold;
+}
+#mobile:hover .dropdown-content {
+  display: block;
+}

@@ -12,6 +12,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link type="text/css" media="(max-width: 700px)" rel="stylesheet" href="mobile.css" />
     <script src="main.js" defer></script>
     <title>Skonių Kerai</title>
 </head>
@@ -21,15 +22,23 @@
             <div id="logo">
                 <img src="pictures/logo.jpg">
             </div>
-            <nav>
-                <a href="#">Produktai</a>
-                <a href="#">Apie mus</a>
-                <a href="#">Kontaktai</a>
+            <nav id="static">
+                <a href="#pack-box">Produktai</a>
+                <a href="#about">Apie mus</a>
+                <a href="#comments-list">Atsiliepimai</a>
+            </nav>
+            <nav id="mobile" >
+                <span>MENU</span>
+                <div class="dropdown-content">
+                    <a href="#">Produktai</a>
+                    <a href="#">Apie mus</a>
+                    <a href="#">Kontaktai</a>
+                </div>
             </nav>
         </header>
     </div>
     <section class="box-one">
-        <h1>Apie mus</h1>
+        <h1 class="about">Apie mus</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ipsum mauris, laoreet sed fringilla
             vitae, placerat scelerisque odio. Duis sit amet mollis felis, eget rhoncus orci. Quisque velit est,
             ultricies sit amet scelerisque tempor, porta molestie arcu. Pellentesque dignissim, dui ac dapibus aliquam,
@@ -90,26 +99,40 @@
         </div>
         <div class="top-sell">
             <h3>Perkamiausios prekės</h3>
-            <div><img src="pictures/pack10.jpg"></div>
-            <div><img src="pictures/pack1.jpg"></div>
-            <div><img src="pictures/pack2.jpg"></div>
-            <div hidden><img src="pictures/pack3.jpg"></div>
-            <div hidden><img src="pictures/pack4.jpg"></div>
-            <div hidden><img src="pictures/pack5.jpg"></div>
+            <div><img src="pictures/pack10.jpg">
+                <p>Fusce id posuere eros.</p>
+            </div>
+            <div><img src="pictures/pack1.jpg">
+                <p>Fusce id posuere eros.</p>
+            </div>
+            <div><img src="pictures/pack2.jpg">
+                <p>Fusce id posuere eros.</p>
+            </div>
+            <div ><img src="pictures/pack3.jpg">
+                <p>Fusce id posuere eros.</p>
+            </div>
+            <div ><img src="pictures/pack4.jpg">
+                <p>Fusce id posuere eros.</p>
+            </div>
+            <div ><img src="pictures/pack5.jpg">
+                <p>Fusce id posuere eros.</p>
+            </div>
         </div>
     </section>
     <section class="box-one">
         <form>
-            <input id="input-text" type="text" name="text" placeholder="Parašykite atsiliepimą/klausimą"></input>
+            <input id="input-text" type="text" name="text" placeholder="Parašykite atsiliepimą/klausimą">
             <input id="input-checked" type="checkbox" name="checkbox" onchange="emailVisibility()">
             <label>Ar norite gauti atrakymą?</label>
-            <input type="submit">
+            <input id="submit" type="submit">
             <input id="input-email" type="email" name="email" placeholder="El. paštas" hidden>
         </form>
         <ul id="comments-list"></ul>
     </section>
     <footer>
-
+        <div class="box-one">
+            <p>© Skonių kerai, UAB, įmonės kodas 123456789</p>
+        </div>
     </footer>
 </body>
 </html>
