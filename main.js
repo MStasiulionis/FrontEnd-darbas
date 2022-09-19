@@ -1,5 +1,5 @@
 document.querySelector("form").addEventListener("submit", addComment);
-
+document.getElementById('input-checked').addEventListener('change', emailVisibility)
 
 function emailVisibility(){
     let checkBox = document.getElementById("input-checked");
