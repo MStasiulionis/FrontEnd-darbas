@@ -73,7 +73,7 @@ form {
     text-align: center;
     padding: 1rem;
 }
-#input-text, #input-email{
+.input-text, #input-email{
     border-radius: 25px;
     height: 2rem;
     width: 25rem;
@@ -84,12 +84,6 @@ form {
 #input-checked:checked {
     height: 1rem;
     width: 1rem;
-}
-#input-text {
-    border-radius: 25px;
-    height: 2rem;
-    width: 25rem;
-    border: 2px solid #C98369;
 }
 #submit {
     border-radius: 25px;
