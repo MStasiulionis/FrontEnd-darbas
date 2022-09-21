@@ -1,0 +1,96 @@
+body {
+    background-image: url("pictures/back.jpg");
+    margin: 1rem;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+#logo img {
+    height: 7rem;
+  }
+#static a {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #3b4205;
+    padding: 0 1rem;
+    margin-right: 1rem;
+  }
+#mobile {
+    visibility: hidden;
+}
+.box-one {
+    border-radius: 25px;
+    background-color: #F1E9DE;
+    padding: 0.4rem;
+    margin: 0.1rem;
+    border: 2px solid #C98369;
+}
+.image-box {
+    border-radius: 25px;
+    background-color: #F1E9DE;
+    padding: 0.4rem;
+    margin: 0.1rem;
+    border: 2px solid #C98369;
+    height: 15rem;
+    width: 20rem;
+    text-align: center;
+    display: inline-block;
+}
+.image-box img {
+    max-height: 10rem;
+    margin: auto;
+    display: block;
+}
+.image-box:hover {
+    border: 4px solid #C98369;
+}
+.top-sell {
+    border-radius: 25px;
+    background-color: #F1E9DE;
+    padding: 0.4rem;
+    margin: 0.1rem;
+    border: 2px solid #C98369;
+    width: 20rem;
+    text-align: center;
+}
+.top-sell div img {
+    max-height: 10rem;
+}
+.pack-box {
+    display: flex;
+    margin: 2rem;
+}
+.pack-box div:first-child {
+    flex: 3;
+}
+.pack-box div:last-child {
+    flex: 1;
+}
+form {
+    text-align: center;
+    padding: 1rem;
+}
+.input-text, #input-email{
+    border-radius: 25px;
+    height: 2rem;
+    width: 25rem;
+    border: 2px solid #C98369;
+    padding: 0.5rem;
+    text-align: center;
+}
+#input-checked:checked {
+    height: 1rem;
+    width: 1rem;
+}
+#submit {
+    border-radius: 25px;
+    border: 2px solid #C98369;
+    padding:0.7rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+footer {
+    text-align:center;
+}
